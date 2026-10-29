@@ -1,0 +1,7 @@
+Flask
+Flask-Talisman
+Flask-Cors
+nose
+coverage
+flake8
+pylint
