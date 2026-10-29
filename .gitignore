@@ -1,8 +1,54 @@
 
-.venv/
+# Python bytecode
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Virtual environments and secrets
+.venv/
+venv/
+env/
 .env
+.envrc
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Tests and coverage
 .coverage
+.coverage.*
 htmlcov/
+.tox/
+.nox/
 .pytest_cache/
+.hypothesis/
+nosetests.xml
+coverage.xml
+
+# Python tools
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Editors and temporary files
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# Flask
+instance/
+.webassets-cache
+
+# Documentation build
+docs/_build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Other local configuration
+.pypirc
